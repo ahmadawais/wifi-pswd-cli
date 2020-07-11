@@ -1,6 +1,6 @@
 {
 	"name": "wifipass",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Get a saved WiFi password",
 	"license": "MIT",
 	"repository": "ahmadawais/wifipass",
