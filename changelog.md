@@ -32,11 +32,27 @@ I have released a video course to help you build <a href="https://NodeCLI.com/?u
 
 <br>
 
+### RELEASE: [0.1.0](https://github.com/ahmadawais/wifipass/compare/0.0.3...0.1.0)
+
+![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+
+> 👌 Stop ora [`98c6a3d`](https://github.com/ahmadawais/wifipass/commit/98c6a3dbb02aca0813618e964ddcd033b6cdd9fe) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: [0.0.3](https://github.com/ahmadawais/wifipass/compare/0.0.2...0.0.3)
 
 ![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
 
 > 📦 Name [`ecfb95f`](https://github.com/ahmadawais/wifipass/commit/ecfb95f66d0eb9a246afcbd111f65b1491a8d448) <br>
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Changelog [`8d57658`](https://github.com/ahmadawais/wifipass/commit/8d5765855ac6a96350f5b8fd63ec99eb9646c4ae) <br>
 
 <br>
 
