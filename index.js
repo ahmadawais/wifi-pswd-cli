@@ -35,7 +35,7 @@ const failed = () =>
 	if (pass) {
 		// Copy to clipboard.
 		clipboardy.writeSync(pass);
-		spinner.clear();
+		spinner.stop();
 
 		alert({
 			type: `success`,
@@ -45,7 +45,7 @@ const failed = () =>
 
 		console.log(d`Password copied to clipboard.\n`);
 	} else {
-		spinner.clear();
+		spinner.stop();
 		failed();
 	}
 })();
