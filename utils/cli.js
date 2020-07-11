@@ -1,38 +1,42 @@
 const meow = require('meow');
-const chalk = require('chalk');
-const green = chalk.green;
-const yellow = chalk.yellow;
-const cyan = chalk.cyan;
-const dim = chalk.dim;
+const meowHelp = require('cli-meow-help');
 
-module.exports = meow(
-	`
-	Usage
-	  ${green(`wifipass`)} ${cyan(`<command>`)} ${yellow(`[--option]`)}
-
-	Commands
-	  ${cyan(`command`)}         Description
-
-	Options
-	  ${yellow(`--option`)}, ${yellow(`-o`)}         Description
-
-	Examples
-	  ${green(`wifipass`)} ${cyan(`command`)}
-	  ${green(`wifipass`)} ${yellow(`--option`)}
-
-	❯ You can also run command + option at once:
-	  ${green(`wifipass`)} ${cyan(`command`)} ${yellow(`-o`)}
-`,
-	{
-		booleanDefault: undefined,
-		hardRejection: false,
-		inferType: false,
-		flags: {
-			option: {
-				type: 'boolean',
-				default: false,
-				alias: 'o'
-			}
-		}
+const flags = {
+	clear: {
+		type: `boolean`,
+		default: true,
+		alias: `c`,
+		desc: `Clear the console`
+	},
+	debug: {
+		type: `boolean`,
+		default: false,
+		alias: `d`,
+		desc: `Print debug info`
+	},
+	version: {
+		type: `boolean`,
+		alias: `v`,
+		desc: `Print CLI version`
 	}
-);
+};
+
+const commands = {
+	name: {desc: `WiFi name to get password for`},
+	help: {desc: `Print help info`}
+};
+
+const helpText = meowHelp({
+	name: `wifipass`,
+	flags,
+	commands
+});
+
+const options = {
+	inferType: true,
+	description: false,
+	hardRejection: false,
+	flags
+};
+
+module.exports = meow(helpText, options);
