@@ -1,0 +1,48 @@
+{
+	"name": "wifipass",
+	"version": "0.0.1",
+	"description": "Get a saved WiFi password",
+	"license": "MIT",
+	"repository": "ahmadawais/wifipass",
+	"author": {
+		"name": "Ahmad Awais",
+		"email": "me@AhmadAwais.com",
+		"url": "https://twitter.com/MrAhmadAwais"
+	},
+	"main": "index.js",
+	"engines": {
+		"node": ">=12.x"
+	},
+	"bin": {
+		"wifipass": "index.js"
+	},
+	"files": [
+		"index.js",
+		"utils/*"
+	],
+	"keywords": [
+		"wifipass",
+		"Ahmad Awais",
+		"ahmadawais"
+	],
+	"devDependencies": {
+		"ava": "^3.10.1",
+		"execa": "^4.0.3",
+		"prettier": "^2.0.5"
+	},
+	"scripts": {
+		"test": "ava",
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"await-to-js": "^2.1.1",
+		"chalk": "^4.1.0",
+		"cli-check-node": "^1.3.1",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.0",
+		"cli-welcome": "^2.2.1",
+		"meow": "^7.0.1",
+		"ora": "^4.0.4",
+		"update-notifier": "^4.1.0"
+	}
+}
