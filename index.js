@@ -33,7 +33,6 @@ const failed = () =>
 	}
 
 	if (pass) {
-		// Copy to clipboard.
 		clipboardy.writeSync(pass);
 		spinner.stop();
 
