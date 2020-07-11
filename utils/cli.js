@@ -27,7 +27,7 @@ const commands = {
 };
 
 const helpText = meowHelp({
-	name: `wifipass`,
+	name: `wifi-pswd`,
 	flags,
 	commands
 });

@@ -1,9 +1,9 @@
 {
-	"name": "wifipass",
+	"name": "wifi-pswd",
 	"version": "0.0.2",
 	"description": "Get a saved WiFi password",
 	"license": "MIT",
-	"repository": "ahmadawais/wifipass",
+	"repository": "ahmadawais/wifi-pswd",
 	"author": {
 		"name": "Ahmad Awais",
 		"email": "me@AhmadAwais.com",
@@ -14,14 +14,14 @@
 		"node": ">=12.x"
 	},
 	"bin": {
-		"wifipass": "index.js"
+		"wifi-pswd": "index.js"
 	},
 	"files": [
 		"index.js",
 		"utils/*"
 	],
 	"keywords": [
-		"wifipass",
+		"wifi-pswd",
 		"Ahmad Awais",
 		"ahmadawais"
 	],

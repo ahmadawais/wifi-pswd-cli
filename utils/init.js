@@ -8,7 +8,7 @@ module.exports = ({clear = true}) => {
 	unhandled();
 	checkNode(`10`);
 	welcome({
-		title: `wifipass`,
+		title: `wifi-pswd`,
 		tagLine: `by Awais.dev`,
 		description: pkg.description,
 		version: pkg.version,
