@@ -7,29 +7,26 @@ const cli = require('./utils/cli.js');
 const init = require('./utils/init.js');
 const clipboardy = require('clipboardy');
 const wifiPassword = require('wifi-password');
-const {yellow: y, green: g, dim: d} = require('chalk');
+const {yellow: y, green: g, red: r, dim: d} = require('chalk');
 
-const [ssid] = cli.input;
+const input = cli.input;
 const flags = cli.flags;
 const {clear} = flags;
 let pass = false;
 
-const failed = () =>
-	alert({
-		type: `fail`,
-		msg: `Password retrieval failed`
-	});
-
 (async () => {
 	init({clear});
-	spinner.start(`${y`PASSWORD`} searching…`);
+	input.includes('help') && cli.showHelp(0);
 
-	// Get the password.
+	spinner.start(`${y`PASSWORD`} searching…\n`);
+
 	try {
-		pass = await wifiPassword(ssid);
+		pass = await wifiPassword(input[0]);
+		spinner.stop();
 	} catch (error) {
-		spinner.clear();
-		failed();
+		spinner.warn(`${r`PASSWORD`} search cancelled\n`);
+		console.log(error.message);
+		console.log();
 	}
 
 	if (pass) {
@@ -42,9 +39,6 @@ const failed = () =>
 			msg: pass
 		});
 
-		console.log(d`Password copied to clipboard.\n`);
-	} else {
-		spinner.stop();
-		failed();
+		console.log(d`Password copied to the clipboard.\n`);
 	}
 })();
