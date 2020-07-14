@@ -1,4 +1,4 @@
-[![wifi-pswd demo](./.github/wifi-pswd.gif)](https://github.com/AhmadAwais/wifi-pswd)
+[![wifi-pswd demo](https://github.com/ahmadawais/wifipass/raw/master/.github/wifi-pswd.gif)](https://github.com/AhmadAwais/wifi-pswd)
 
 # wifi-pswd
 
