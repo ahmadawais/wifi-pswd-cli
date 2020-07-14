@@ -32,6 +32,18 @@ I have released a video course to help you build <a href="https://NodeCLI.com/?u
 
 <br>
 
+### RELEASE: [1.0.1](https://github.com/ahmadawais/wifipass/compare/1.0.0...1.0.1)
+
+![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
+
+> 👌 Image [`e8048f5`](https://github.com/ahmadawais/wifipass/commit/e8048f53b284978a7da9e84cc34abfd77c6c07c0) <br>
+
+<br>
+
+[![hr](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/hr.png)](/)
+
+<br>
+
 ### RELEASE: [1.0.0](https://github.com/ahmadawais/wifipass/compare/0.1.0...1.0.0)
 
 ![📦 NEW:](https://img.shields.io/badge/-NEW-gray.svg?colorB=3778FF)
@@ -41,6 +53,10 @@ I have released a video course to help you build <a href="https://NodeCLI.com/?u
 ![👌 IMPROVE:](https://img.shields.io/badge/-IMPROVEMENT-gray.svg?colorB=39AA54)
 
 > 👌 Final format [`02c7e68`](https://github.com/ahmadawais/wifipass/commit/02c7e6897f2413606ee14db33571b8180ca40e42) <br>
+
+![📖 DOC:](https://img.shields.io/badge/-DOCS-gray.svg?colorB=978CD4)
+
+> 📖 Changelog [`7230a2a`](https://github.com/ahmadawais/wifipass/commit/7230a2a549897368dd3110c005d0516a7774657c) <br>
 
 <br>
 
