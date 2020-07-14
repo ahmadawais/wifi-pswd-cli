@@ -1,6 +1,6 @@
 {
 	"name": "wifi-pswd",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"description": "Get a saved WiFi password",
 	"license": "MIT",
 	"repository": "ahmadawais/wifi-pswd",
